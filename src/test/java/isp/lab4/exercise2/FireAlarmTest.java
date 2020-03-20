@@ -18,6 +18,6 @@ public class FireAlarmTest {
     }
     @Test
     public void toStringTest(){
-        assertEquals("Fire alarm status is false",Alarm1.toString());
+        assertEquals("FireAlarm{active=false}",Alarm1.toString());
     }
 }

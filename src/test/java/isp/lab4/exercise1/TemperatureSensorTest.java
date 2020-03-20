@@ -20,6 +20,6 @@ public class TemperatureSensorTest {
     }
     @Test
     public void toStringTest(){
-        assertEquals("The temperature of the Room1 is {30}","The temperature of the Room1 is {30}",Sensor1.toString());
+        assertEquals("The temperature of the Room1 is {30}","TemperatureSensor{value=30,location=Room1}",Sensor1.toString());
     }
 }

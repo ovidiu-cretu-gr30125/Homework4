@@ -1,7 +1,6 @@
-package isp.lab4.exercise2;
+package isp.lab4.exercise5;
 
 public class FireAlarm {
-
     private boolean active=false;
 
     public void FireSensor(boolean active){ this.active=active; }

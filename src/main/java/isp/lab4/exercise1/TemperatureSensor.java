@@ -22,6 +22,6 @@ public class TemperatureSensor {
         }
 
         public String toString(){
-            return "The temperature of the "+getLocation()+" is {"+getValue()+"}";
+            return "TemperatureSensor{value="+value+",location="+location+"}";
         }
 }
