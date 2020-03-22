@@ -21,6 +21,6 @@ public class HouseTest {
         final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
         House1.getController().controlStep();
-        assertEquals("Alarm should be on","Fire alarm started\n",outContent.toString());
+        assertEquals("Alarm should be on","Fire alarm started\r\n",outContent.toString());
     }
 }

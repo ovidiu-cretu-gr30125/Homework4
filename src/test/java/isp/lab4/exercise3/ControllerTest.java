@@ -22,6 +22,6 @@ public class ControllerTest {
         final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
         Controller1.controlStep();
-        assertEquals("Fire alarm should be started","Fire alarm started\n",outContent.toString());
+        assertEquals("Fire alarm should be started","Fire alarm started\r\n",outContent.toString());
     }
 }

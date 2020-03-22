@@ -5,10 +5,12 @@ public class Employee {
 
     private String lastName;
 
-    public Employee(String firstName,String lastName){this.firstName=firstName;this.lastName=lastName;}
+    public Employee(String firstName,String lastName){
+        this.firstName=firstName;
+        this.lastName=lastName;
+    }
 
     public double getPaymentAmount(){
-        System.out.println(("Nu avem bani caoe"));
-
+        return 0.0;
     }
 }
